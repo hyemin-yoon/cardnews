@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸른 바다의 전설</title>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="./js/script.js"></script>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <style>
+        @charset "utf-8";
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img,
+        video,
+        iframe {
+            vertical-align: middle;
+        }
+
+        body {
+            background: url(./images/bg.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        .contents {
+            max-width: 640px;
+            max-height: 640px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .swiper-slide {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: #fff;
+        }
+
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+            color: #5178e2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="swiper contents">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+                <img src="./images/swiper1.png" alt="1">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="./images/swiper2.jpg" alt="2">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="./images/swiper3.jpg" alt="3">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="./images/swiper4.jpg" alt="4">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="./images/swiper5.jpg" alt="5">
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <img src="./images/swiper6.jpg" alt="6">
+
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
